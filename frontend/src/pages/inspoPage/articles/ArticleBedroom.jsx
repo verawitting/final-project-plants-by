@@ -12,9 +12,9 @@ export const ArticleBedroom = () => {
   const plantIds = [3, 21, 10, 2];
 
   //0 = CHINESE MONEY PLANT
-  //1 = MONSTERA
-  //2 = SNAKE PLANT
-  //3 = MONEY TREE
+  //1 = MONEY TREE
+  //2 = MONSTERA 
+  //3 = SNAKE PLANT
 
   const isMobileSmall = useMediaQuery({ maxWidth: 390 });
   const isMobileMedium = useMediaQuery({ minWidth: 391, maxWidth: 410 });
@@ -32,11 +32,11 @@ export const ArticleBedroom = () => {
 
   const bedroomButtonCoordinates = [
     //Monstera
-    { x: 85, y: 55, plantIndex: 1 },
+    { x: 85, y: 55, plantIndex: 2 },
     //Snake Plant
-    { x: 60, y: 70, plantIndex: 2 },
+    { x: 60, y: 70, plantIndex: 3 },
     //Money Tree
-    { x: 10, y: 30, plantIndex: 3 },
+    { x: 10, y: 30, plantIndex: 1 },
   ];
 
   const handleButtonClick = (plantIndex, coord) => {
