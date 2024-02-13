@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { EmailLink } from "./EmailLink";
 
 // importing icons
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -14,7 +15,7 @@ export const Developers = () => {
       title: "junior frontend developer",
       githubUrl: "https://github.com/JuliaHolm",
       linkedInUrl: "https://www.linkedin.com/in/julia-holm-63249226b/",
-      email: "",
+      email: "juliat.holm@gmail.com",
       pText:
         "Julia is a dedicated developer known for her beautiful web sites, innovative solutions and exceptional coding abilities. She creates user-friendly applications and solves complex issues with ease. Her drive for excellence and great focus makes her a valuable asset to any project and a standout in the technology field.",
     }, 
@@ -54,7 +55,7 @@ export const Developers = () => {
                 <Link to={developer.linkedInUrl} target="_blank" aria-label="Linked in">
                   <FaLinkedin className="icon" />
                 </Link>
-                <GrSend className="icon" />
+                <EmailLink email={developer.email}/>
               </div>
               <p className="about-p">{developer.pText}</p>
             </div>
