@@ -20,7 +20,7 @@ export const Project = () => {
           {content.text}
         </p>
         <Link
-          to="https://github.com/JuliaHolm/final-boiler-plate-monorepo"
+          to="https://github.com/JuliaHolm/final-boiler-plate-monorepo" target="_blank"
           className="project-link" aria-label="Project link to git hub repository"
         >
           <FaCode className="code-icon" />
