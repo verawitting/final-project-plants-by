@@ -16,10 +16,6 @@ You will also need to add the following environment variables to your .env file 
 
 `VITE_BACKEND_API` - Add your own backend API deployment link
 
-There is also a sectet jwt key
-
-`JWT_SECRET` - ADD IT BY DOING WHAT?!?!
-
 
 ## API Reference
 
